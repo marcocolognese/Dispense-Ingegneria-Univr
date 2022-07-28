@@ -1,0 +1,25 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {chapter}{Concetti di Base}{2}{chapter*.1}
+\contentsline {section}{Composizione parallela: $H || G$}{2}{section*.2}
+\contentsline {section}{Prodotto: $H \times G$}{2}{section*.3}
+\contentsline {section}{Coaccessibilit\IeC {\`a}: $CoAcc (G)$}{2}{section*.4}
+\contentsline {section}{Accessibilit\IeC {\`a}: $Acc (G) = Trim(G)$}{2}{section*.5}
+\contentsline {section}{Complemento: $Compl (G)$}{2}{section*.6}
+\contentsline {chapter}{Linguaggi e Automi}{3}{chapter*.7}
+\contentsline {section}{Osservatore}{3}{section*.8}
+\contentsline {section}{Osservabilit\IeC {\`a}}{3}{section*.9}
+\contentsline {section}{Controllabilit\IeC {\`a}}{4}{section*.10}
+\contentsline {section}{Controllore Massimo Supremo}{4}{section*.11}
+\contentsline {section}{Sovralinguaggio Controllabile Infimo}{4}{section*.12}
+\contentsline {chapter}{Segnali discreti}{5}{chapter*.13}
+\contentsline {chapter}{Reti di Petri}{5}{chapter*.14}
+\contentsline {section}{Albero di Copertura (o Raggiungibilit\IeC {\`a})}{5}{section*.15}
+\contentsline {section}{Grafo di Copertura (o Raggiungibilit\IeC {\`a})}{5}{section*.16}
+\contentsline {chapter}{Macchine a stati}{6}{chapter*.17}
+\contentsline {section}{Determinizzazione di un NFA (Subset Construction)}{7}{section*.19}
+\contentsline {section}{Minimizzazione}{7}{section*.23}
+\contentsline {section}{Simulazione}{7}{section*.24}
+\contentsline {section}{Bisimulazione}{7}{section*.25}
+\contentsline {chapter}{Automi ibridi}{8}{chapter*.26}
+\contentsline {chapter}{Definizioni}{9}{chapter*.31}

@@ -1,0 +1,327 @@
+\documentclass[a4paper, notitlepage, 9pt]{extreport}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{frontespizio}
+\usepackage{hyperref}
+\hypersetup{hidelinks,
+	colorlinks = true,
+	urlcolor = black, 
+	linkcolor = black}
+\usepackage[margin=3cm]{geometry}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\setcounter{tocdepth}{4}
+\usepackage{stmaryrd}
+\usepackage[strict]{changepage}
+\usepackage{libertine}
+\usepackage{textcomp}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{stmaryrd}
+\usepackage{amssymb}
+\usepackage{caption}
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+\lstset{basicstyle=\ttfamily\small}
+
+\makeatletter
+\newcommand*{\toccontents}{\@starttoc{toc}}
+\makeatother
+
+\begin{document}
+	\title{\textbf{\underline{Intelligenza Artificiale}}}
+	\date{aprile 2018}
+	\author{Colognese, Rossini}
+	\maketitle
+	
+	\toccontents
+
+\chapter*{Rational Agent}
+\addcontentsline{toc}{chapter}{Rational Agent}
+\textit{\textbf{Agente razionale}}: è un'entità che percepisce dall'ambiente attraverso i sensori, entra in uno stato e agisce attraverso gli attuatori (in maniera ciclica). È una funzione che lega la \textit{storia delle percezioni} (per non ripetere azioni inutilmente) alla corrispondente \textit{azione}.
+\begin{align*}
+f: \mathcal{P}^* \rightarrow \mathcal{A}
+\end{align*}
+
+\noindent
+Ogni stato evolve attraverso una o più azioni possibili, generando nuovi stati futuri che vengono rappresentati attraverso un albero. Se l'agente ha $|\mathcal{P}|$ possibili percezioni, la funzione $f$ avrà~ $\Sigma_{t=1}^T |\mathcal{P}|^t$.\\
+\textbf{\textit{Tipi di agente}}:
+\begin{itemize}
+	\item \textit{simple-reflex agent}: non ha stato, percepisce l'ambiente e agisce secondo una condizione;
+	\item \textit{reflex agent with state}: come il precedente ma tiene conto dello stato, di come evolve il mondo e che effetto avranno le sue azioni sull'ambiente;
+	\item \textit{goal-based agent}: come il precedente ma svolge delle azioni per raggiungere un determinato obiettivo (\textit{goal}).
+	\item \textit{utility-based agent}: svolge le azioni non secondo un certo goal ma per massimizzare la performance measure;
+	\item \textit{learning agents}: tutti i precedenti sono convertibili in esso.
+\end{itemize}
+
+\noindent
+\textit{\textbf{Performance measure}}: è un metodo di valutazione per le azioni svolte dall'agente (punti bonus oppure penalizzazioni). Un agente razionale scegli l'azione da svolgere con l'obiettivo di massimizzare il risultato. Questa soluzione permette di scegliere sempre l'azione migliore ma non garantisce il successo.
+\newline
+
+\noindent
+\textit{\textbf{PEAS}}: per progettare un agente razionale bisogna definire i \textit{task environment}.
+\begin{itemize}
+	\item \textit{Performance measure}: sicurezza, profitto $\dots$;
+	\item \textit{Environment}: traffico, meteo $\dots$;
+	\item \textit{Actuators}: sterzo, acceleratore, freno $\dots$;
+	\item \textit{Sensors}: tastiera, accelerometro, videocamera, GPS$\dots$.
+\end{itemize}
+Ci sono diversi \textit{tipi di environment}: osservabile, deterministico, episodico (una mossa non limita quelle future), statico (la variante è solo l'agente), discreto, sigle-agent.
+
+
+
+\chapter*{Search}
+\addcontentsline{toc}{chapter}{Search}
+\textit{\textbf{Simple-Problem-Solving-Agent(percept)}}: in base ad una situazione del mondo percepita, esegue questi passi:
+\begin{itemize}
+	\item inizialmente crea uno stato del mondo attraverso la percezione e da esso produce il goal, il problema e la sequenza di azioni da svolgere;
+	\item esegue un'azione, la elimina dalla lista e ripete fino alla fine della sequenza ignorando ulteriori percezioni.
+\end{itemize}
+\textbf{\textit{Tipi di problemi}}: \textit{Non-Osservabili} (l'agente non ha sensori e ignora le percezioni), \textit{Deterministico, Osservabile} (single-state problem, la soluzione è una sequenza scelta all'inizio), \textit{Non-Deterministico} (ottiene informazioni dalle nuove percezioni e la soluzione viene aggiornata).
+\newline
+
+\noindent
+\textit{\textbf{Single-State Problem formulation}}: è definito da uno stato iniziale, funzione successore (insieme di stato-azione), goal test, path cost (aggiuntivo) ed una soluzione. Lo \textit{state space} è un'astrazione degli stati reali (complessi).
+
+
+\section*{Tree Search Algorithms}
+\addcontentsline{toc}{section}{Tree Search Algorithms}
+È offline, simula l'esplorazione degli stati generando successori di stati già esplorati (espansi) secondo una strategia.\\
+La strategia è definita dall'ordine di espansione dei nodi. Ogni strategia è valutata riguardo: completezza (se c'è una soluzione la trova sempre), time-complexity (quanti nodi genera), space-complexity (quanti nodi tiene in memoria ad ogni istante), ottimalità (se la soluzione è la migliore).\\
+\textit{Time e Space complexity} sono misurate in termini di:
+\begin{itemize}
+	\item \textbf{b}: numero massimo di successori per ogni nodo (\textit{maximum branching factor});
+	\item \textbf{d}: profondità della soluzione minima (\textit{depth}, dipende dallo stato iniziale);
+	\item \textbf{m}: profondità massima (può essere infinita se ripeto una mossa).
+\end{itemize}
+\textit{\textbf{Tree-Search(problem, fringe)}}: crea una frontiera con i nodi da espandere, rimuove un nodo alla volta, ne fa il Goal-Test e se non è un terminale lo espande e inserisce i successori nella frontiera.
+
+
+
+\chapter*{Uninformed Search}
+\addcontentsline{toc}{chapter}{Uninformed Search}
+Usano solo le informazioni disponibili nella definizione del problema: \textit{Breadth-first search}, \textit{Uniform-cost search}, \textit{Depth-first search}, \textit{Depth-limited search}, \textit{Iterative-deepening search}.
+
+
+\section*{\underline{Tree Search Algorithms}}
+\addcontentsline{toc}{section}{Tree Search Algorithms}
+
+\subsection*{Breadth-First Search}
+\addcontentsline{toc}{subsection}{Breadth-First Search}
+Dato un albero, esso viene visitato in ampiezza e come frontiera si usa una coda FIFO.\\
+\textit{\textbf{Completezza}}: è completo se $b$ è finito.\\
+\textit{\textbf{Tempo}}: esponenziale in $d$. $1 + b + b^2 + \dots + b^d + b(b^d -1) = \mathcal{O}(b^{d+1})$\\
+\textit{\textbf{Spazio}}: ogni nodo viene tenuto in memoria (può generare molti nodi). $\mathcal{O}(b^{d+1})$\\
+\textit{\textbf{Ottimale}}: sì se ogni step ha costo $1$; non ottimale in generale.
+
+\subsection*{Uniform-Cost Search}
+\addcontentsline{toc}{subsection}{Uniform-Cost Search}
+Espande i nodi non espansi col costo minore. La frontiera è una coda con ordine crescente sul path-cost.\\
+È equivalente al \textit{Breadth-first search} se gli step-cost sono tutti uguali.\\
+\textit{\textbf{Completezza}}: è completo se lo \textit{step-cost} $\geq \epsilon$\\
+\textit{\textbf{Tempo}}: $\sharp$ nodi con step-cost $\leq$ costo della soluzione ottimale, $\mathcal{O}(b^{\lceil C^*/\epsilon\rceil})$, con $C^* =$ costo della soluzione ottimale.\\
+\textit{\textbf{Spazio}}: $\sharp$ nodi con step-cost $\leq$ costo della soluzione ottimale, $\mathcal{O}(b^{\lceil C^*/\epsilon\rceil})$\\
+\textit{\textbf{Ottimale}}: sì, i nodi vengono espansi in ordine crescente.
+
+\subsection*{Depth-First Search}
+\addcontentsline{toc}{subsection}{Depth-First Search}
+Espande i nodi più profondi attraverso una visita in profondità. La frontiera è una coda LIFO.\\
+\textit{\textbf{Completezza}}: no, fallisce con spazi di profondità infinita e/o con cicli. È completo con stati finiti.\\
+\textit{\textbf{Tempo}}: $\mathcal{O}(b^m)$: terribile se $m \gg d$. Se la soluzione è densa è più veloce di \textit{Breadth-first search}.\\
+\textit{\textbf{Spazio}}: $\mathcal{O}(bm)$: spazio lineare!\\
+\textit{\textbf{Ottimale}}: no!
+
+\subsection*{Depth-Limited Search}
+\addcontentsline{toc}{subsection}{Depth-Limited Search}
+DFS $+$ \textit{depth-limit} $l$: i nodi alla profondità $l$ non hanno successori. La frontiera è una coda LIFO.\\
+È come la DFS e per ogni nodo ne controlla la profondità per non superare il limite dato (se lo supera ritorna \textit{cutoff}).
+
+\subsection*{Iterative-Deepening Search}
+\addcontentsline{toc}{subsection}{Iterative-Deepening Search}
+Per ogni livello di profondità da $0$ a $\infty$ chiama la funzione \textit{Depth-Limited-Search(problem, depth)} e, se il risultato è diverso da cutoff, lo ritorna. IDS è migliore di BFS perché non espande gli altri nodi a profondità $d$.\\
+Però BFS può essere modificata per applicare il goal-test quando un nodo è generato.\\
+\textit{\textbf{Completezza}}: Sì.\\
+\textit{\textbf{Tempo}}: $(d+1)b^0 + bd^1 + (d-1)b^2 + \dots + b^d = \mathcal{O}(b^d)$\\
+\textit{\textbf{Spazio}}: $\mathcal{O}(bd)$, genera i nodi più volte.\\
+\textit{\textbf{Ottimale}}: sì, se lo step-cost $= 1$
+
+
+\section*{\underline{Graph Search}}
+\addcontentsline{toc}{section}{Graph Search}
+Si differenzia dal \textit{tree-search} perché prima di espandere un nodo lo mette in \textbf{Closed} e lo toglie dalla frontiera per non espanderlo più. Può essere molto più efficiente del \textit{tree-search}.\\
+Si parte dal grafo e si risolve applicando un algoritmo di Tree-Search, duplicando gli stati raggiungibili in più modi.
+
+
+
+\chapter*{Informed Search}
+\addcontentsline{toc}{chapter}{Informed Search}
+
+
+\section*{\underline{Best First Search}}
+\addcontentsline{toc}{section}{Best First Search}
+Usa una \textit{\textbf{funzione di valutazione}} per ogni nodo che ci dice quanto esso sia desiderabile per il cammino ottimo.\\
+Espande il nodo più desiderabile. La frontiera è una coda ordinata in modo decrescente sull'ordine di desiderabilità.\\
+Ci sono due casi speciali che sono: \textit{Greedy Search} e \textit{A* Search}.
+
+
+\subsection*{Greedy Search}
+\addcontentsline{toc}{subsection}{Greedy Search}
+La funzione di valutazione è l'\textit{euristica (h(n))} che è la stima del costo da $n$ al nodo goal (distanza in linea d'aria).\\
+Espande il nodo con l'euristica più bassa.\\
+\textit{\textbf{Completezza}}: no, può bloccarsi all'interno di certi loop. Sì, se c'è controllo sugli stati ripetuti.\\
+\textit{\textbf{Tempo}}: $\mathcal{O}(b^m)$: con una buona euristica può avere buoni miglioramenti.\\
+\textit{\textbf{Spazio}}: $\mathcal{O}(b^m)$: tiene tutti i nodi in memoria.\\
+\textit{\textbf{Ottimale}}: no.
+
+
+\subsection*{A* Search}
+\addcontentsline{toc}{subsection}{A* Search}
+Evita di espandere percorsi già troppo costosi. La funzione di valutazione è: $f(n) = g(n) + h(n)$, dove $g(n)$ è il costo per raggiungere $n$ dalla partenza. \textit{A*} usa un'\textbf{euristica ammissibile} che non sovrastima il costo reale.\\
+\textit{\textbf{Completezza}}: sì, a meno che non ci siano infiniti nodi con $f\leq f(Goal)$.\\
+\textit{\textbf{Tempo}}: esponenziale.\\
+\textit{\textbf{Spazio}}: tiene tutti i nodi in memoria.\\
+\textit{\textbf{Ottimale}}: sì, non espande $f(i+1)$ finché non ha finito $f(i)$. Espande solo i nodi con $f(n)\leq C^*$.
+
+\section*{Heuristics}
+\addcontentsline{toc}{section}{Heuristics}
+L'\textbf{euristica} è \textbf{consistente} se $h(n) \leq c(n, a, n') + h(n')$, dove il path che passa da $n'$ non è ottimo.\\
+Un'euristica consistente è sicuramente ammissibile; se è ammissibile non è necessariamente consistente.\\
+Tree Search + Euristica Ammissibile $\rightarrow$ A* ottimale\\
+Graph Search + Euristica Ammissibile $\nrightarrow$ A* ottimale (può scartare path ottimali su nodi ripetuti)\\
+Graph Search + Euristica Consistente $\rightarrow$ A* ottimale\\\\
+Se $h_2(n) \geq h_1(n)$ (entrambe ammissibili), allora $h_2(n)$ domina $h_1(n)$ ed è migliore per la ricerca.\\
+Date due euristiche ammissibili $h_1(n), h_2(n)$: prendiamo $h(n) = max (h_1(n), h_2(n))$.
+
+
+
+\chapter*{Processamento dei Vincoli}
+\addcontentsline{toc}{chapter}{Processamento dei Vincoli}
+Dato un set di possibili soluzioni, trova la migliore (non si possono provare tutte).\\
+Dato un problema decisionale, se non è risolvibile diventa un \textit{problema di ottimizzazione} (numero minimo di conflitti).
+L'ottimizzazione può essere multi-obiettivo, come ad esempio: minimizzare i rischi e massimizzare gli obiettivi.
+
+
+\section*{Graphical Model: Reti a Vincoli}
+\addcontentsline{toc}{section}{Graphical Model: Reti a Vincoli}
+Una rete a vincoli è caratterizzata: un \textit{insieme di variabili}, un \textit{insieme di domini} (uno per ogni variabile), un \textit{set di funzioni locali} (regolano le relazioni tra alcune variabili). Una \textit{funzione globale} è un'aggregazione di funzioni locali.\\
+L'obiettivo è trovare dei valori per le variabili tali che valga una certa relazione tra loro.\\
+Le relazioni non binarie sono più complesse.\\
+La combinazione di due soluzioni parziali consistenti può non essere consistente (\textit{\textbf{backtracking}} necessario).
+
+\subsection*{Constraint Graph}
+\addcontentsline{toc}{subsection}{Constraint Graph}
+Ci sono due tipi di grafi:
+\begin{itemize}
+	\item \textit{Grafo Primale}: i nodi sono le variabili; gli archi sono i vincoli tra di esse.
+	\item \textit{Grafo Duale}: i nodi sono le variabili coinvolte nei vincoli; gli archi sono le variabili condivise dai nodi.
+\end{itemize}
+La rappresentazione dei vincoli può essere di tre tipi: tabellare, aritmetica ($a\neq b$) e booleana ($a ~\&~ b$).\\
+Le \textit{relazioni} sono il prodotto cartesiano delle variabili alle quali assegno tutte le combinazioni che rispettano i vincoli.
+
+
+
+\chapter*{Node and Arc Consistency}
+\addcontentsline{toc}{chapter}{Node and Arc Consistency}
+Ci sono due tecniche risolutive per le Reti a Vincoli:
+\begin{itemize}
+	\item \textit{inferenza}: derivare nuovi vincoli basati su quelli esistenti; eliminazione di valori delle variabili che non rispettano i vincoli.
+	\item \textit{ricerca}: cercare una soluzione provando i diversi valori delle variabili; backtracking.
+\end{itemize}
+\textit{\textbf{Backtracking}}: scegliere una variabile $x$, per ogni valore aggiungere un vincolo $x=v$ e valutare ricorsivamente il resto del problema. Viene fatto quando gli assegnamenti parziali violano i vincoli (\textit{local consistency}).\\
+\textit{\textbf{Consistenza}}: quando si forza la consistenza locale, si potrebbe scoprire che il problema è in realtà inconsistente.\\
+Data una soluzione parziale di lunghezza $i-1$, può essere estesa ad un'altra variabile connessa (\textit{i-consistency}).\\
+\textit{\textbf{Arc-Consistency}}: vale da $1$ a $2$ variabili.\\
+\textit{\textbf{Global-Consistency}}: è una rete $i$-consistente per $i=1, \dots n$. Più alto è $i$, migliore sarà il risultato; però il costo in termini di tempo e spazio è esponenziale in $i$.\\
+\textit{\textbf{Node-Consistency}}: data una variabile $x_i$ ed il dominio $D_i$, se ogni valore del suo dominio del soddisfa ogni vincolo. Posso forzarla rimuovendo i valori dal dominio che non soddisfano tutti i vincoli (se vuoto, non c'è soluzione).\\\\
+\textit{\textbf{Constraint Propagation} (algoritmo)}: disegnare il grafico con nodi (scrivere dominio della variabile) e archi (scrivere i vincoli su di essi). Scegliere variabile e vincolo: eliminare dal dominio i valori non presenti nel vincolo e propagare.\\
+\textit{\textbf{Revise((x), y)}}: rimuove gli elementi del dominio di $x$ che non hanno relazioni con elementi del dominio di $y$.\\\\
+\textit{\textbf{AC-1} (algoritmo)}: si fa il \textit{Revise} di tutte le coppie da entrambi i versi (se $D_i=\emptyset$, la rete è inconsistente). Il procedimento si ripete fino a quando non ci sono più variazioni nei domini (termina sempre). Complessità: $\mathcal{O}(nek^3)$\\
+Nel caso peggiore si elimina un elemento dal dominio ad ogni ciclo (ci possono essere al più $nk$ cicli).\\
+\textit{\textbf{AC-3} (algoritmo)}: è come \textit{AC-1}, però quando analizzo $(x_i, x_j)$ modifico $D_i$ devo aggiungere alla coda tutte le coppie $(x_k, x_i)$ con $k\neq i$ e $k\neq j$. Complessità: $\mathcal{O}(ek^3)$.\\
+Arc-Consistent + Domains\_Not\_Empty $\nrightarrow$ Consistent Problem (tranne per i problemi trattabili che sono polinomiali).\\\\
+\textit{\textbf{Inconsistenza}}: quando si forza la consistenza locale, si può scoprire che il problema è inconsistente (ad esempio l'Arc-Consistenza e il dominio vuoto). Però non vale sempre il contrario.\\
+Dato un albero con ogni nodo arc-consistente col figlio, allora il problema è globalmente consistente. Questo è dovuto al fatto che i nodi fratelli non introducono inconsistenza. Il problema sono i \textit{cicli}.\\
+\textit{\textbf{Un problema arc-consistente è anche globalmente consistente se}}: non ha domini vuoti, i vincoli sono binari, il grafo primale non contiene cicli.
+
+
+
+\chapter*{Search Strategies: Lookahead}
+\addcontentsline{toc}{chapter}{Search Strategies: Lookahead}
+\textit{\textbf{Binary CSP} (Constraint Satisfaction Problem)}: ogni vincolo collega al massimo due variabili. C'è un arco tra due nodi quando vi è un vincolo tra essi.
+Gli stati sono definiti dai valori assegnati nel seguente modo: \textit{initial state} (vuoto), \textit{funzione successore} (se possibile, assegna un valore ad una variabile libera senza creare conflitti altrimenti \textit{fail}), \textit{goal test} (assegnamento completo).\\
+\textit{\textbf{Backtracking}}: lo scopo è ridurre la dimensione dello spazio di ricerca esplorato. È necessario ordinare le variabili, consistenza locale (arc oppure path consistency), \textit{look-ahead} (predirre future inconsistenze), \textit{look-back} (dove fare backtrack) e \textit{tree-decomposition}.\\\\
+\textit{\textbf{MRV}}: scelgo la variabile con il minor numero di valori possibili.\\
+\textit{\textbf{Degree Heuristics}}: scelgo la variabile con più vincoli (nodo con più archi).\\
+\textit{\textbf{Scelta delle variabili - Valore meno vincolante}}: scelgo il valore che limiterà meno le altre variabili.\\
+\textit{\textbf{Backtrack Free Search}}: una rete è \textit{backtrack free} se ogni foglia è un nodo goal.\\\\
+\textit{\textbf{Forward Checking}}: propaga l'effetto di un valore ad una futura variabile (vincolata). Se il dominio della variabile futura diventa vuoto, si prova un altro valore per la variabile corrente.\\
+\textit{\textbf{Arc-Consistency Look-Ahead} (algoritmo)}: disegno il grafico e riporto tutti i vincoli. Devo eliminare i cicli e lo faccio rimuovendo una o più variabili (quelle con più archi). Nel grafo rimanente rappresento anche i vincoli con le variabili rimosse (archi tratteggiati). Assegno i valori alle variabili rimosse e propago sul grafo rimanente.
+
+
+
+\chapter*{Tree Decomposition Methods}
+\addcontentsline{toc}{chapter}{Tree Decomposition Methods}
+Si può sempre trasformare un grafo ciclico in un albero aciclico.
+
+
+\section*{Acyclic Network}
+\addcontentsline{toc}{section}{Acyclic Network}
+\textit{\textbf{Ipergrafo}}: i nodi raggruppati formano una clicca. Si può trasformare in grafo primale e duale.\\
+Nel grafo duale possono esserci archi ridondanti che possono sembrare cicli (si toglie l'arco con grado minore).\\
+\textit{\textbf{Running Intersection property} (per la Dual Based Recognition)}: un vincolo tra due nodi può essere rimosso se le varibili che etichettano l'arco sono contenute in altri path attraverso questi due nodi (\textbf{\textit{Maximum Spanning Tree}}).\\
+\textit{\textbf{Join Tree}}: grafo duale senza cicli in cui vale la \textit{Running Intersection property}.\\
+\textit{\textbf{Tree Solver}}: scelgo una clique come radice, rappresento l'albero con i vincoli e faccio il \textit{Revise} tra la radice e i figli (rimane una o più soluzioni).\\\\
+Ci sono due metodi per verificare se una rete è aciclica: \textit{Dual Based Recognition} e \textit{Primal Based Recognition}.\\
+\textit{\textbf{Primal Based Recognition}}: generare il grafo primale relativo all'ipergrafo (\textit{conformalità}) e verificare la \textit{cordalità} verificando se ogni nodo forma una clique con i suoi \textit{anchestors}. Con le clique massimali genero poi il grafo duale e faccio Maximum Spanning Tree.\\
+\textit{\textbf{Max-Cardinality Order}}: scelgo un nodo arbitrariamente, scelgo un altro nodo che ha il numero massimo di connessioni ai nodi già scelti e ripetere.
+
+
+\section*{Clustering}
+\addcontentsline{toc}{section}{Clustering}
+Consiste nel raggruppare sottoinsiemi di vincoli per formare una struttura ad albero.\\\\
+\textit{\textbf{Algoritmo}}: dato un ordine di variabili, creare il \textbf{grafo indotto} (analizzo gli \textit{anchestor} e aggiungo vincoli per creare le clique). Faccio Spanning Tree sul grafo e aggiungo i vincoli corrispondenti alle clique massimali (mai doppi).\\
+Si specificano i vincoli (disguaglianza) sul grafo primale e li riporto nelle clique (tabella, stando attento a quali vincoli ho assegnato alla clique) mantenendo solo le combinazioni valide (rimarranno solo le possibili soluzioni). Poi faccio il Revise del nodo/clique padre verso il figlio, cioè \textit{Rev((p),f)}.\\\\
+Il problema è polinomiale eccetto trovare le combinazioni valide (esponenziale).
+
+
+
+\chapter*{Constraint Optimisation Problems}
+\addcontentsline{toc}{chapter}{Constraint Optimisation Problems}
+\textit{\textbf{Combinatorial Auction}}: $S=\{a_1, \dots , a_n \}$ set di oggetti, $B=\{b_1, \dots , b_m \}$ insieme di offerenti (\textit{bids}). Abbiamo vari $b_i = (S_i, r_i)$ che associano uno o più item, con un costo complessivo, ad un acquirente.\\
+L'obiettivo è trovare un sottoinsieme di offerenti $B' \subseteq B$ tale che nessuna coppia di offerenti non condivida nessun item e $C(Bì) = \Sigma_{b_i\in B'} r_i$ è massimizzata.\\
+Cost Network: Constraint Network + Cost Function\\
+Cost Function: $F(\overline{a}) = \Sigma_{j=1}^l F_j(\overline{a})$\\\\
+Variabili $b_i$, domini $D_i = \{0, 1\}$. $b_i = 1$ significa che il bid $i$ (insieme di variabili) è stato selezionato.\\
+\textit{\textbf{Hard-Constraint}}: due \textit{bids} selezionati non posso condividere nessun item.\\
+\textit{\textbf{Soft-Constraint}}: selezionare i \textit{bids} che massimizzano la somma del loro costo.
+
+
+\section*{Branch and Bound}
+\addcontentsline{toc}{section}{Branch and Bound}
+Si rappresentano i bids in ordine con i rispettivi costi ed i vincoli (due bids collegati devono avere valori diversi).\\
+Faccio la sommatoria di tutti i costi per avere il valore massimo. Sviluppo l'albero binario (es. $b_1 = 1, b_2 = 0 \dots$) facendo attenzione ai vincoli (se $b_1$ è collegato a $b_2$ non possono essere entrambi $1$).\\
+Il valore più alto in fondo all'albero sarà la soluzione $L$.
+
+
+\section*{Bucket Elimination}
+\addcontentsline{toc}{section}{Bucket Elimination}
+Sono procedure di programmazione dinamica per risolvere i \textit{Constraint Optimisation Problems}.\\
+Un Bucket $B_i$ è un insieme di vincoli che si riferiscono ad una certa variabile $x_i$.\\\\
+\begin{itemize}
+	\item Si assegnano i vincoli al bucket seguendo un ordine dato. Si assegna un vincolo al primo bucket rispettivo ad una delle variabili contenute dal vincolo.
+	\item Per ogni Bucket si genera una \textit{\textbf{funzione di massimizzazione}} ($H^b(a, c)$) contenente tutte le variabili dei vincoli del bucket esclusa quella che lo identifica. Questa si inserisce nel primo bucket che fa riferimento ad una delle variabili della funzione. L'ultimo bucket il numero massimo $M$ che posso ottenere dal problema.
+	\item Per ogni Bucket si genera il valore massimizzato della variabile relativa: $a^* = argmax_a (F_0(a) + H^f(a))$
+\end{itemize}
+
+
+
+\end{document}

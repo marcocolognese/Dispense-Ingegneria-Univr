@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{chapter*.2}{Introduzione}{}% 1
+\BOOKMARK [1][-]{section*.3}{Sicurezza Informatica}{chapter*.2}% 2
+\BOOKMARK [1][-]{figure.caption.5}{Privacy in Network Security}{chapter*.2}% 3
+\BOOKMARK [1][-]{figure.caption.11}{Anonymity Network}{chapter*.2}% 4
+\BOOKMARK [0][-]{chapter*.20}{Algoritmi e Meccanismi di Crittografia}{}% 5
+\BOOKMARK [1][-]{figure.caption.22}{Simmetric Key Encryption}{chapter*.20}% 6
+\BOOKMARK [2][-]{figure.caption.25}{Placement of Encryption}{figure.caption.22}% 7
+\BOOKMARK [2][-]{figure.caption.26}{Key Distribution}{figure.caption.22}% 8
+\BOOKMARK [0][-]{chapter*.28}{Algoritmi di Crittografia a Chiave Pubblica}{}% 9
+\BOOKMARK [1][-]{figure.caption.30}{Algoritmo RSA}{chapter*.28}% 10
+\BOOKMARK [1][-]{thm.2}{Algoritmo di Diffie-Hellman}{chapter*.28}% 11
+\BOOKMARK [1][-]{figure.caption.31}{ElGamal \(Variante di Diffie-Hellman\)}{chapter*.28}% 12
+\BOOKMARK [1][-]{Item.8}{Massey-Omura}{chapter*.28}% 13
+\BOOKMARK [0][-]{chapter*.32}{Integrit\340 dei messaggi e hash crittografici}{}% 14
+\BOOKMARK [1][-]{section*.33}{Hash}{chapter*.32}% 15
+\BOOKMARK [1][-]{Item.16}{MAC}{chapter*.32}% 16
+\BOOKMARK [1][-]{figure.caption.35}{Firma digitale}{chapter*.32}% 17
+\BOOKMARK [0][-]{chapter*.38}{Public-Key Infrastructures}{}% 18
+\BOOKMARK [1][-]{section*.39}{Certificati}{chapter*.38}% 19
+\BOOKMARK [2][-]{section*.39}{X.509}{chapter*.38}% 20
+\BOOKMARK [1][-]{figure.caption.40}{Trust Models}{chapter*.38}% 21
+\BOOKMARK [2][-]{section*.41}{Web of Trust: PGP}{figure.caption.40}% 22
+\BOOKMARK [0][-]{chapter*.42}{Network Security and Internet Protocols}{}% 23
+\BOOKMARK [1][-]{section*.43}{Costruzione di un Protocollo per lo Sambio di Chiavi}{chapter*.42}% 24
+\BOOKMARK [1][-]{figure.caption.52}{Il Protocollo di Needham-Schroeder a Chiave Pubblica \(NSPK\)}{chapter*.42}% 25
+\BOOKMARK [1][-]{figure.caption.54}{Il Protocollo NSL \(Needham-Schroeder-Lowe\)}{chapter*.42}% 26
+\BOOKMARK [1][-]{figure.caption.56}{Tipi di Attacco}{chapter*.42}% 27
+\BOOKMARK [1][-]{figure.caption.56}{Il Protocollo di Otway-Rees}{chapter*.42}% 28
+\BOOKMARK [1][-]{figure.caption.60}{Il Protocollo di Andrew Secure RPC}{chapter*.42}% 29
+\BOOKMARK [1][-]{figure.caption.63}{Scambio delle chiavi con CA \(Denning \046 Sacco\)}{chapter*.42}% 30
+\BOOKMARK [1][-]{figure.caption.66}{Esempi di Attacchi}{chapter*.42}% 31
+\BOOKMARK [0][-]{chapter*.70}{Kerberos, SSL, IPSec}{}% 32
+\BOOKMARK [1][-]{section*.71}{Kerberos}{chapter*.70}% 33
+\BOOKMARK [1][-]{figure.caption.77}{SSL \(Secure Socket Layer\)}{chapter*.70}% 34
+\BOOKMARK [1][-]{figure.caption.86}{IPSec}{chapter*.70}% 35
+\BOOKMARK [2][-]{figure.caption.98}{IKE}{figure.caption.86}% 36
+\BOOKMARK [0][-]{chapter*.107}{Intrusion Detection System}{}% 37
+\BOOKMARK [0][-]{chapter*.111}{Firewall}{}% 38

@@ -1,0 +1,22 @@
+\BOOKMARK [0][-]{chapter*.2}{Interpretazione Astratta}{}% 1
+\BOOKMARK [1][-]{section*.3}{Accelerazione della convergenza}{chapter*.2}% 2
+\BOOKMARK [2][-]{section*.4}{Widening}{section*.3}% 3
+\BOOKMARK [2][-]{section*.5}{Narrowing}{section*.3}% 4
+\BOOKMARK [1][-]{section*.6}{Correttezza}{chapter*.2}% 5
+\BOOKMARK [1][-]{section*.7}{Completezza}{chapter*.2}% 6
+\BOOKMARK [1][-]{section*.8}{Linguaggio e semantica}{chapter*.2}% 7
+\BOOKMARK [1][-]{section*.9}{Collecting Semantics}{chapter*.2}% 8
+\BOOKMARK [1][-]{section*.10}{Control-Flow-Graph \(CFG\)}{chapter*.2}% 9
+\BOOKMARK [2][-]{section*.11}{Notazione dei CFG}{section*.10}% 10
+\BOOKMARK [0][-]{chapter*.12}{Analisi Statica}{}% 11
+\BOOKMARK [1][-]{section*.13}{Introduzione}{chapter*.12}% 12
+\BOOKMARK [1][-]{section*.14}{Analisi sul CFG}{chapter*.12}% 13
+\BOOKMARK [1][-]{section*.15}{Soluzioni MFP - MOP - IDEAL}{chapter*.12}% 14
+\BOOKMARK [1][-]{section*.16}{Data Flow Analysis}{chapter*.12}% 15
+\BOOKMARK [2][-]{section*.17}{Problemi Distributivi}{section*.16}% 16
+\BOOKMARK [2][-]{section*.23}{Riepilogo}{section*.16}% 17
+\BOOKMARK [2][-]{section*.24}{Problemi Non-Distributivi}{section*.16}% 18
+\BOOKMARK [0][-]{chapter*.28}{Analisi Dinamica}{}% 19
+\BOOKMARK [1][-]{section*.29}{Testing}{chapter*.28}% 20
+\BOOKMARK [1][-]{section*.30}{Debugging}{chapter*.28}% 21
+\BOOKMARK [1][-]{section*.31}{Program Slicing}{chapter*.28}% 22

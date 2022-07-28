@@ -1,0 +1,1428 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.20)  12 SEP 2019 11:20
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Sistemi Informativi.tex"
+(./Sistemi Informativi.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/extsizes/extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/05/04 3.31 The Babel package
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/05/04 3.31 Babel switching mechanism
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2019/01/05 v.1.4.01 Italian support for the babel system
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/05/04 3.31 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen104
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+\it@lettering=\count91
+\it@doublequoteactive=\count92
+\it@ISOcompliance=\count93
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count94
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen105
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks17
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks18
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/frontespizio/frontespizio.sty
+Package: frontespizio 2011/09/21 1.4a (Enrico Gregorio)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks27
+\AP@partial=\box29
+\AP@footins=\box30
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\front@out=\write3
+\openout3 = `"Sistemi Informativi-frn.tex"'.
+
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen116
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count109
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count110
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen117
+\Fld@menulength=\count111
+\Field@Width=\dimen118
+\Fld@charsize=\dimen119
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip49
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 13.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count117
+\Gm@cntv=\count118
+\c@Gm@tempcnt=\count119
+\Gm@bindingoffset=\dimen120
+\Gm@wd@mp=\dimen121
+\Gm@odd@mp=\dimen122
+\Gm@even@mp=\dimen123
+\Gm@layoutwidth=\dimen124
+\Gm@layoutheight=\dimen125
+\Gm@layouthoffset=\dimen126
+\Gm@layoutvoffset=\dimen127
+\Gm@dimlist=\toks29
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen128
+\lightrulewidth=\dimen129
+\cmidrulewidth=\dimen130
+\belowrulesep=\dimen131
+\belowbottomsep=\dimen132
+\aboverulesep=\dimen133
+\abovetopsep=\dimen134
+\cmidrulesep=\dimen135
+\cmidrulekern=\dimen136
+\defaultaddspace=\dimen137
+\@cmidla=\count120
+\@cmidlb=\count121
+\@aboverulesep=\dimen138
+\@belowrulesep=\dimen139
+\@thisruleclass=\count122
+\@lastruleclass=\count123
+\@thisrulewidth=\dimen140
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count124
+\lst@gtempboxa=\box31
+\lst@token=\toks30
+\lst@length=\count125
+\lst@currlwidth=\dimen141
+\lst@column=\count126
+\lst@pos=\count127
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count128
+\lst@lineno=\count129
+\lst@maxwidth=\dimen144
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count130
+\lst@skipnumbers=\count131
+\lst@framebox=\box32
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count132
+\cp@tempcnt=\count133
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/libertine/libertine.sty
+Package: libertine 2019/02/27 (Bob Tennent) Supports Libertine and Biolinum fon
+ts for all LaTeX engines.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count134
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/mweights/mweights.sty
+Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
+font packages. 
+LaTeX Info: Redefining \bfseries on input line 22.
+LaTeX Info: Redefining \mdseries on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 38.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 94.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+)
+LaTeX Info: Redefining \oldstylenums on input line 489.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count135
+\float@exts=\toks33
+\float@box=\box33
+\@float@everytoks=\toks34
+\@floatcapt=\box34
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count136
+\mult@box=\box35
+\multicol@leftmargin=\dimen145
+\c@unbalance=\count137
+\c@collectmore=\count138
+\doublecol@number=\count139
+\multicoltolerance=\count140
+\multicolpretolerance=\count141
+\full@width=\dimen146
+\page@free=\dimen147
+\premulticols=\dimen148
+\postmulticols=\dimen149
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box36
+\last@line=\box37
+\maxbalancingoverflow=\dimen150
+\mult@rightbox=\box38
+\mult@grightbox=\box39
+\mult@gfirstbox=\box40
+\mult@firstbox=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\c@columnbadness=\count142
+\c@finalcolumnbadness=\count143
+\last@try=\dimen151
+\multicolovershoot=\dimen152
+\multicolundershoot=\dimen153
+\mult@nat@firstbox=\box59
+\colbreak@box=\box60
+\mc@col@check@num=\count144
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box61
+\extrarowheight=\dimen155
+\NC@list=\toks35
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box62
+)
+\rotheadsize=\dimen156
+\c@nlinenum=\count145
+\TeXr@lab=\toks36
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen157
+\captionmargin@=\dimen158
+\captionwidth=\dimen159
+\caption@tempdima=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
+)
+\c@caption@flags=\count146
+\c@ContinuedFloat=\count147
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(./Sistemi Informativi.aux)
+\openout1 = `"Sistemi Informativi.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
+input line 40.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.f
+d
+File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
+nuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 40.
+LaTeX Info: Redefining \it@ocap on input line 40.
+LaTeX Info: Redefining \it@ccap on input line 40.
+ (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count148
+\scratchdimen=\dimen164
+\scratchbox=\box63
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen165
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
+\everyMPtoPDFconversion=\toks38
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box64
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 40.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count154
+)
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
+
+(./Sistemi Informativi.out) (./Sistemi Informativi.out)
+\@outlinefile=\write4
+\openout4 = `"Sistemi Informativi.out"'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=9.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count155
+\c@mv@tabular=\count156
+\c@mv@boldtabular=\count157
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 45.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 45.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 45.
+
+(./Sistemi Informativi.toc
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 3.
+)
+\tf@toc=\write5
+\openout5 = `"Sistemi Informativi.toc"'.
+
+ [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 48.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 48.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 50.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
+(Font)              scaled to size 9.0pt on input line 50.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 52.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
+ input line 58.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.
+fd
+File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 58.
+<SistemaInformativoAziendale.png, id=217, 622.325pt x 378.41376pt>
+File: SistemaInformativoAziendale.png Graphic file (type png)
+<use SistemaInformativoAziendale.png>
+Package pdftex.def Info: SistemaInformativoAziendale.png  used on input line 85
+.
+(pdftex.def)             Requested size: 210.56213pt x 128.0374pt.
+
+Overfull \hbox (2.16646pt too wide) in paragraph at lines 85--86
+ [][] 
+ []
+
+<EfficienzaEfficacia.png, id=218, 566.115pt x 214.8025pt>
+File: EfficienzaEfficacia.png Graphic file (type png)
+<use EfficienzaEfficacia.png>
+Package pdftex.def Info: EfficienzaEfficacia.png  used on input line 97.
+(pdftex.def)             Requested size: 181.16049pt x 68.73819pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+[2
+
+ <./SistemaInformativoAziendale.png> <./EfficienzaEfficacia.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
+
+ []
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 143.
+<Piramide1.jpg, id=228, 616.3025pt x 456.70625pt>
+File: Piramide1.jpg Graphic file (type jpg)
+<use Piramide1.jpg>
+Package pdftex.def Info: Piramide1.jpg  used on input line 148.
+(pdftex.def)             Requested size: 246.51663pt x 182.67926pt.
+
+Overfull \hbox (38.12096pt too wide) in paragraph at lines 148--149
+ [][] 
+ []
+
+<Piramide2.png, id=229, 188.705pt x 384.43625pt>
+File: Piramide2.png Graphic file (type png)
+<use Piramide2.png>
+Package pdftex.def Info: Piramide2.png  used on input line 153.
+(pdftex.def)             Requested size: 84.91646pt x 172.9947pt.
+
+Overfull \vbox (30.72604pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (30.72604pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (21.04149pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (21.04149pt too high) has occurred while \output is active []
+
+
+[3 <./Piramide1.jpg> <./Piramide2.png>]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 158.
+<SIVertOriz.png, id=236, 460.72125pt x 243.91125pt>
+File: SIVertOriz.png Graphic file (type png)
+<use SIVertOriz.png>
+Package pdftex.def Info: SIVertOriz.png  used on input line 172.
+(pdftex.def)             Requested size: 184.28523pt x 97.56276pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 198.
+[4 <./SIVertOriz.png>]
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 209.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
+(Font)              scaled to size 8.0pt on input line 209.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 223.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
+
+ []
+
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 261--264
+
+ []
+
+<ERP3.png, id=246, 528.97626pt x 374.39874pt>
+File: ERP3.png Graphic file (type png)
+<use ERP3.png>
+Package pdftex.def Info: ERP3.png  used on input line 290.
+(pdftex.def)             Requested size: 174.5627pt x 123.55196pt.
+<ERP2.png, id=247, 540.0175pt x 274.02374pt>
+File: ERP2.png Graphic file (type png)
+<use ERP2.png>
+Package pdftex.def Info: ERP2.png  used on input line 295.
+(pdftex.def)             Requested size: 178.20631pt x 90.4281pt.
+<ERP.png, id=248, 527.9725pt x 142.5325pt>
+File: ERP.png Graphic file (type png)
+<use ERP.png>
+Package pdftex.def Info: ERP.png  used on input line 299.
+(pdftex.def)             Requested size: 137.2696pt x 37.05757pt.
+<Logistica.png, id=249, 573.14125pt x 60.225pt>
+File: Logistica.png Graphic file (type png)
+<use Logistica.png>
+Package pdftex.def Info: Logistica.png  used on input line 330.
+(pdftex.def)             Requested size: 171.9437pt x 18.06763pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--337
+
+ []
+
+[6 <./ERP3.png> <./ERP2.png> <./ERP.png> <./Logistica.png>]
+<Acquisti.png, id=258, 604.2575pt x 253.94875pt>
+File: Acquisti.png Graphic file (type png)
+<use Acquisti.png>
+Package pdftex.def Info: Acquisti.png  used on input line 342.
+(pdftex.def)             Requested size: 181.27864pt x 76.1852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--364
+
+ []
+
+[7 <./Acquisti.png>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 444--447
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--478
+
+ []
+
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 482--485
+
+ []
+
+[10]
+<Cat.png, id=277, 606.265pt x 180.675pt>
+File: Cat.png Graphic file (type png)
+<use Cat.png>
+Package pdftex.def Info: Cat.png  used on input line 548.
+(pdftex.def)             Requested size: 272.81673pt x 81.303pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--559
+
+ []
+
+[11
+
+ <./Cat.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 623--625
+
+ []
+
+<LRC.png, id=283, 1192.455pt x 339.2675pt>
+File: LRC.png Graphic file (type png)
+<use LRC.png>
+Package pdftex.def Info: LRC.png  used on input line 640.
+(pdftex.def)             Requested size: 238.48677pt x 67.8523pt.
+
+Overfull \hbox (30.0911pt too wide) in paragraph at lines 640--641
+ [][] 
+ []
+
+[12 <./LRC.png>]
+<Griglia.png, id=293, 611.28375pt x 326.21875pt>
+File: Griglia.png Graphic file (type png)
+<use Griglia.png>
+Package pdftex.def Info: Griglia.png  used on input line 719.
+(pdftex.def)             Requested size: 183.38654pt x 97.86636pt.
+ [13 <./Griglia.png>] [14
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 753--758
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--770
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--780
+
+ []
+
+[15
+
+]
+<Arch1Liv.png, id=315, 475.7775pt x 418.56375pt>
+File: Arch1Liv.png Graphic file (type png)
+<use Arch1Liv.png>
+Package pdftex.def Info: Arch1Liv.png  used on input line 801.
+(pdftex.def)             Requested size: 152.2519pt x 133.94313pt.
+<Arch2Liv.png, id=317, 393.47pt x 433.62pt>
+File: Arch2Liv.png Graphic file (type png)
+<use Arch2Liv.png>
+Package pdftex.def Info: Arch2Liv.png  used on input line 806.
+(pdftex.def)             Requested size: 125.91296pt x 138.76123pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--829
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--832
+
+ []
+
+<Arch3Liv.png, id=318, 370.38374pt x 432.61626pt>
+File: Arch3Liv.png Graphic file (type png)
+<use Arch3Liv.png>
+Package pdftex.def Info: Arch3Liv.png  used on input line 838.
+(pdftex.def)             Requested size: 155.5601pt x 181.69759pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 844--847
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 848--851
+
+ []
+
+[16 <./Arch1Liv.png> <./Arch2Liv.png> <./Arch3Liv.png>]
+<CuboVendite.png, id=329, 492.84125pt x 349.305pt>
+File: CuboVendite.png Graphic file (type png)
+<use CuboVendite.png>
+Package pdftex.def Info: CuboVendite.png  used on input line 866.
+(pdftex.def)             Requested size: 172.49701pt x 122.25858pt.
+<Slicing.png, id=330, 469.755pt x 340.27126pt>
+File: Slicing.png Graphic file (type png)
+<use Slicing.png>
+Package pdftex.def Info: Slicing.png  used on input line 871.
+(pdftex.def)             Requested size: 178.50876pt x 129.30441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--878
+
+ []
+
+<Reportistica.png, id=331, 357.335pt x 96.36pt>
+File: Reportistica.png Graphic file (type png)
+<use Reportistica.png>
+Package pdftex.def Info: Reportistica.png  used on input line 880.
+(pdftex.def)             Requested size: 178.66705pt x 48.17987pt.
+<Reportistica2.png, id=332, 287.0725pt x 167.62625pt>
+File: Reportistica2.png Graphic file (type png)
+<use Reportistica2.png>
+Package pdftex.def Info: Reportistica2.png  used on input line 885.
+(pdftex.def)             Requested size: 114.82695pt x 67.0493pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 889--894
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--901
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--911
+
+ []
+
+[17 <./CuboVendite.png> <./Slicing.png> <./Reportistica.png> <./Reportistica2.p
+ng>]
+<CicloSviluppo.png, id=345, 233.87375pt x 217.81375pt>
+File: CicloSviluppo.png Graphic file (type png)
+<use CicloSviluppo.png>
+Package pdftex.def Info: CicloSviluppo.png  used on input line 975.
+(pdftex.def)             Requested size: 105.2422pt x 98.01527pt.
+
+Overfull \vbox (5.04042pt too high) has occurred while \output is active []
+
+
+[18 <./CicloSviluppo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 986--988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1012
+
+ []
+
+<Piramide.png, id=354, 553.06625pt x 229.85875pt>
+File: Piramide.png Graphic file (type png)
+<use Piramide.png>
+Package pdftex.def Info: Piramide.png  used on input line 1019.
+(pdftex.def)             Requested size: 232.28624pt x 96.54001pt.
+
+Overfull \hbox (23.89056pt too wide) in paragraph at lines 1019--1020
+ [][] 
+ []
+
+<Domande.png, id=355, 459.7175pt x 249.93375pt>
+File: Domande.png Graphic file (type png)
+<use Domande.png>
+Package pdftex.def Info: Domande.png  used on input line 1024.
+(pdftex.def)             Requested size: 193.08003pt x 104.97145pt.
+[19 <./Piramide.png> <./Domande.png>]
+<Fatti.png, id=365, 504.88625pt x 379.4175pt>
+File: Fatti.png Graphic file (type png)
+<use Fatti.png>
+Package pdftex.def Info: Fatti.png  used on input line 1033.
+(pdftex.def)             Requested size: 227.1967pt x 170.73628pt.
+
+Overfull \hbox (18.80103pt too wide) in paragraph at lines 1033--1034
+ [][] 
+ []
+
+<Requisiti.png, id=366, 458.71375pt x 110.4125pt>
+File: Requisiti.png Graphic file (type png)
+<use Requisiti.png>
+Package pdftex.def Info: Requisiti.png  used on input line 1038.
+(pdftex.def)             Requested size: 174.31303pt x 41.95717pt.
+<Preliminare.png, id=367, 469.755pt x 296.10625pt>
+File: Preliminare.png Graphic file (type png)
+<use Preliminare.png>
+Package pdftex.def Info: Preliminare.png  used on input line 1042.
+(pdftex.def)             Requested size: 178.50876pt x 112.52153pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1058
+
+ []
+
+<DFM.png, id=368, 471.7625pt x 172.645pt>
+File: DFM.png Graphic file (type png)
+<use DFM.png>
+Package pdftex.def Info: DFM.png  used on input line 1071.
+(pdftex.def)             Requested size: 179.2716pt x 65.60577pt.
+<DFM2.png, id=369, 491.8375pt x 204.765pt>
+File: DFM2.png Graphic file (type png)
+<use DFM2.png>
+Package pdftex.def Info: DFM2.png  used on input line 1076.
+(pdftex.def)             Requested size: 186.90018pt x 77.8115pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1086
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1086
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1095
+
+ []
+
+[20 <./Fatti.png> <./Requisiti.png> <./Preliminare.png> <./DFM.png> <./DFM2.png
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1105
+
+ []
+
+<Albero.png, id=384, 422.57875pt x 321.2pt>
+File: Albero.png Graphic file (type png)
+<use Albero.png>
+Package pdftex.def Info: Albero.png  used on input line 1107.
+(pdftex.def)             Requested size: 169.0285pt x 128.47772pt.
+<Esempio.png, id=385, 528.97626pt x 331.2375pt>
+File: Esempio.png Graphic file (type png)
+<use Esempio.png>
+Package pdftex.def Info: Esempio.png  used on input line 1112.
+(pdftex.def)             Requested size: 211.58675pt x 132.49265pt.
+
+Overfull \hbox (3.19107pt too wide) in paragraph at lines 1112--1113
+ [][] 
+ []
+
+<Innesto.png, id=386, 281.05pt x 172.645pt>
+File: Innesto.png Graphic file (type png)
+<use Innesto.png>
+Package pdftex.def Info: Innesto.png  used on input line 1123.
+(pdftex.def)             Requested size: 109.60905pt x 67.33127pt.
+<Editing.png, id=387, 362.35374pt x 81.30376pt>
+File: Editing.png Graphic file (type png)
+<use Editing.png>
+Package pdftex.def Info: Editing.png  used on input line 1132.
+(pdftex.def)             Requested size: 144.93892pt x 32.52092pt.
+<Dimensioni.png, id=388, 443.6575pt x 172.645pt>
+File: Dimensioni.png Graphic file (type png)
+<use Dimensioni.png>
+Package pdftex.def Info: Dimensioni.png  used on input line 1147.
+(pdftex.def)             Requested size: 190.769pt x 74.23589pt.
+[21 <./Albero.png> <./Esempio.png> <./Innesto.png> <./Editing.png> <./Dimension
+i.png>]
+<Misure.png, id=404, 450.68375pt x 299.1175pt>
+File: Misure.png Graphic file (type png)
+<use Misure.png>
+Package pdftex.def Info: Misure.png  used on input line 1157.
+(pdftex.def)             Requested size: 171.2616pt x 113.66582pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1151--1158
+
+ []
+
+<Schema.png, id=405, 464.73625pt x 276.03125pt>
+File: Schema.png Graphic file (type png)
+<use Schema.png>
+Package pdftex.def Info: Schema.png  used on input line 1176.
+(pdftex.def)             Requested size: 185.8912pt x 110.41054pt.
+<Creazione.png, id=406, 576.1525pt x 327.2225pt>
+File: Creazione.png Graphic file (type png)
+<use Creazione.png>
+Package pdftex.def Info: Creazione.png  used on input line 1183.
+(pdftex.def)             Requested size: 230.45691pt x 130.88667pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1198
+
+ []
+
+[22 <./Misure.png> <./Schema.png> <./Creazione.png>]
+<Stella.png, id=417, 426.59375pt x 325.215pt>
+File: Stella.png Graphic file (type png)
+<use Stella.png>
+Package pdftex.def Info: Stella.png  used on input line 1235.
+(pdftex.def)             Requested size: 162.1073pt x 123.58298pt.
+<Stella2.png, id=418, 529.98pt x 324.21124pt>
+File: Stella2.png Graphic file (type png)
+<use Stella2.png>
+Package pdftex.def Info: Stella2.png  used on input line 1240.
+(pdftex.def)             Requested size: 201.39449pt x 123.20155pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1256--1261
+
+ []
+
+[23 <./Stella.png> <./Stella2.png>]
+<Snowflake.png, id=429, 467.7475pt x 361.35pt>
+File: Snowflake.png Graphic file (type png)
+<use Snowflake.png>
+Package pdftex.def Info: Snowflake.png  used on input line 1263.
+(pdftex.def)             Requested size: 177.74588pt x 137.31442pt.
+File: Snowflake.png Graphic file (type png)
+<use Snowflake.png>
+Package pdftex.def Info: Snowflake.png  used on input line 1268.
+(pdftex.def)             Requested size: 177.74588pt x 137.31442pt.
+<Normalizzazione.png, id=430, 521.95pt x 184.69pt>
+File: Normalizzazione.png Graphic file (type png)
+<use Normalizzazione.png>
+Package pdftex.def Info: Normalizzazione.png  used on input line 1277.
+(pdftex.def)             Requested size: 198.34305pt x 70.18292pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1283.
+ [24 <./Snowflake.png> <./Normalizzazione.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1283.
+ (./Sistemi Informativi.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1283.
+
+Package rerunfilecheck Info: File `"Sistemi Informativi".out' has not changed.
+(rerunfilecheck)             Checksum: FC8EA12B85D85B44F43A0A46930641BD;3108.
+ ) 
+Here is how much of TeX's memory you used:
+ 12912 strings out of 492616
+ 196980 string characters out of 6129481
+ 306524 words of memory out of 5000000
+ 16425 multiletter control sequences out of 15000+600000
+ 98707 words of font info for 87 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,8n,92p,810b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc
+}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{
+/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/
+usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineT
+B.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLiber
+tineTBI.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/libertine/Li
+nLibertineTI.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb>
+Output written on "Sistemi Informativi.pdf" (24 pages, 3338230 bytes).
+PDF statistics:
+ 507 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 529 words of extra memory for PDF output out of 10000 (max. 10000000)
+

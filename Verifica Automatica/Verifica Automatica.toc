@@ -1,0 +1,16 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {chapter}{Transition System}{2}{chapter*.1}
+\contentsline {section}{Program Graph (PG)}{2}{section*.4}
+\contentsline {section}{Parallelismo e Comunicazione}{3}{section*.5}
+\contentsline {chapter}{Linear Time Properties}{4}{chapter*.7}
+\contentsline {section}{Safety}{4}{section*.8}
+\contentsline {section}{Liveness}{4}{section*.9}
+\contentsline {section}{Fairness}{4}{section*.10}
+\contentsline {chapter}{Linear Temporal Logic}{5}{chapter*.11}
+\contentsline {section}{Model Checking}{6}{section*.21}
+\contentsline {section}{Model Checking}{6}{section*.23}
+\contentsline {chapter}{Computation Tree Logic}{7}{chapter*.24}
+\contentsline {section}{Computation Tree}{7}{section*.26}
+\contentsline {section}{Equivalenza tra formule LTL e CTL}{8}{section*.33}
+\contentsline {section}{CTL*}{9}{section*.42}

@@ -1,0 +1,43 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{Teoria dell'Organizzazione}{2}{chapter*.1}% 
+\contentsline {section}{Organizzazione Aziendale}{2}{section*.2}% 
+\contentsline {section}{Tecnologie Informatiche}{2}{section*.3}% 
+\contentsline {section}{Gestione dell'Informazione}{3}{section*.6}% 
+\contentsline {section}{Organizzazione come Sistema Aperto}{3}{section*.7}% 
+\contentsline {subsection}{Modello Gerarchico (Piramide di Anthony)}{3}{section*.8}% 
+\contentsline {subsection}{Progettazione del Sistema Informativo}{4}{section*.11}% 
+\contentsline {subsection}{Inceretezza Comportamentale}{4}{section*.13}% 
+\contentsline {chapter}{Classificazione dei Sistemi Informativi}{5}{chapter*.14}% 
+\contentsline {section}{Segmentazione dei Bisogni: il Portafoglio Applicativo}{5}{section*.15}% 
+\contentsline {subsection}{Informatizzazione del Portafoglio Operativo nelle Imprese Manifatturiere}{5}{section*.16}% 
+\contentsline {section}{Enterprise Resource Planning (ERP)}{6}{section*.17}% 
+\contentsline {subsection}{SAP (multinazionale)}{7}{section*.23}% 
+\contentsline {section}{Il Portafoglio Operativo delle Societ\IeC {\`a} di Servizi}{7}{section*.24}% 
+\contentsline {subsection}{CRM e Aziende di Utility}{8}{section*.25}% 
+\contentsline {subsection}{CRM e Business Intelligence}{8}{section*.26}% 
+\contentsline {chapter}{Ingegneria Sociale}{9}{chapter*.27}% 
+\contentsline {section}{Fasi dell'Attacco}{9}{section*.28}% 
+\contentsline {subsection}{Fase Fisica}{9}{section*.29}% 
+\contentsline {subsection}{Fase Psicologica}{10}{section*.30}% 
+\contentsline {chapter}{Ingegneria dei Processi Gestionali}{11}{chapter*.31}% 
+\contentsline {section}{Griglia Metodologica}{12}{section*.33}% 
+\contentsline {subsection}{Variabili Organizzative}{12}{section*.34}% 
+\contentsline {subsection}{Fasi di Analisi}{13}{section*.40}% 
+\contentsline {section}{Trasformazione dei Processi}{13}{section*.45}% 
+\contentsline {chapter}{Business Process Model and Notation (BPMN)}{14}{chapter*.46}% 
+\contentsline {section}{Modellazione di processi e dati}{14}{section*.47}% 
+\contentsline {chapter}{Data Warehousing}{15}{chapter*.48}% 
+\contentsline {section}{Introduzione al Data Warehousing}{15}{section*.49}% 
+\contentsline {subsection}{Architettura a 2 Livelli}{16}{section*.50}% 
+\contentsline {subsection}{Architettura a 3 Livelli}{16}{section*.53}% 
+\contentsline {section}{Il modello Multidimensionale}{17}{section*.55}% 
+\contentsline {section}{Il Ciclo di Vita del Data Warehouse}{18}{section*.60}% 
+\contentsline {subsection}{Analisi e Riconciliazione delle Sorgenti Operazionali}{19}{section*.64}% 
+\contentsline {subsection}{Analisi dei Requisiti}{19}{section*.65}% 
+\contentsline {subsection}{Progettazione Concettuale}{20}{section*.71}% 
+\contentsline {subsection}{Carico di Lavoro e Volume Dati}{22}{section*.82}% 
+\contentsline {section}{Progettazione Logica}{23}{section*.83}% 
+\contentsline {subsection}{Sistemi MOLAP}{23}{section*.84}% 
+\contentsline {subsection}{Sistemi ROLAP: Schema a Stella}{23}{section*.85}% 
+\contentsline {subsection}{Snowflake Schema}{23}{section*.88}% 

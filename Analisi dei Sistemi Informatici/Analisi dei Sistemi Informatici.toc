@@ -1,0 +1,32 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {chapter}{Interpretazione Astratta}{2}{chapter*.2}
+\contentsline {section}{Accelerazione della convergenza}{2}{section*.3}
+\contentsline {subsection}{Widening}{2}{section*.4}
+\contentsline {subsection}{Narrowing}{2}{section*.5}
+\contentsline {section}{Correttezza}{3}{section*.6}
+\contentsline {section}{Completezza}{3}{section*.7}
+\contentsline {section}{Linguaggio e semantica}{4}{section*.8}
+\contentsline {section}{Collecting Semantics}{4}{section*.9}
+\contentsline {section}{Control-Flow-Graph (CFG)}{5}{section*.10}
+\contentsline {subsection}{Notazione dei CFG}{6}{section*.11}
+\contentsline {chapter}{Analisi Statica}{9}{chapter*.12}
+\contentsline {section}{Introduzione}{9}{section*.13}
+\contentsline {section}{Analisi sul CFG}{9}{section*.14}
+\contentsline {section}{Soluzioni MFP - MOP - IDEAL}{10}{section*.15}
+\contentsline {section}{Data Flow Analysis}{11}{section*.16}
+\contentsline {subsection}{Problemi Distributivi}{11}{section*.17}
+\contentsline {subsubsection}{Available Expressions}{11}{section*.18}
+\contentsline {subsubsection}{Very Busy Expressions}{12}{section*.19}
+\contentsline {subsubsection}{Liveness}{13}{section*.20}
+\contentsline {subsubsection}{Copy Propagation}{14}{section*.21}
+\contentsline {subsubsection}{Reaching Definition}{14}{section*.22}
+\contentsline {subsection}{Riepilogo}{15}{section*.23}
+\contentsline {subsection}{Problemi Non-Distributivi}{16}{section*.24}
+\contentsline {subsubsection}{Costanti}{16}{section*.25}
+\contentsline {subsubsection}{Segni}{16}{section*.26}
+\contentsline {subsubsection}{Intervalli}{17}{section*.27}
+\contentsline {chapter}{Analisi Dinamica}{18}{chapter*.28}
+\contentsline {section}{Testing}{18}{section*.29}
+\contentsline {section}{Debugging}{18}{section*.30}
+\contentsline {section}{Program Slicing}{18}{section*.31}

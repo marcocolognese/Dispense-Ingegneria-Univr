@@ -1,0 +1,22 @@
+\BOOKMARK [0][-]{chapter*.1}{Incertezza e Probabilit\340}{}% 1
+\BOOKMARK [1][-]{section*.2}{Probabilit\340}{chapter*.1}% 2
+\BOOKMARK [2][-]{section*.5}{Probabilit\340 Condizionale}{section*.2}% 3
+\BOOKMARK [0][-]{chapter*.8}{Decisioni Complesse}{}% 4
+\BOOKMARK [1][-]{section*.12}{Decision Trees}{chapter*.8}% 5
+\BOOKMARK [1][-]{section*.14}{Markov Decision Processes}{chapter*.8}% 6
+\BOOKMARK [2][-]{section*.15}{Policy non stazionaria}{section*.14}% 7
+\BOOKMARK [3][-]{section*.16}{Bellman Equations}{section*.15}% 8
+\BOOKMARK [3][-]{section*.17}{Value Iteration}{section*.15}% 9
+\BOOKMARK [3][-]{section*.21}{Policy Iteration}{section*.15}% 10
+\BOOKMARK [0][-]{chapter*.23}{Bayesian Network}{}% 11
+\BOOKMARK [1][-]{section*.27}{Costruzione di una Bayesian Network}{chapter*.23}% 12
+\BOOKMARK [1][-]{section*.31}{Compact Conditional Distributions}{chapter*.23}% 13
+\BOOKMARK [2][-]{section*.33}{Enumeration Algorithm}{section*.31}% 14
+\BOOKMARK [2][-]{section*.36}{Variable Elimination}{section*.31}% 15
+\BOOKMARK [2][-]{section*.39}{Irrelevant Variables}{section*.31}% 16
+\BOOKMARK [2][-]{section*.40}{Approximate Inference by Stocastic Simulation}{section*.31}% 17
+\BOOKMARK [0][-]{chapter*.41}{Reinforcement Learning}{}% 18
+\BOOKMARK [1][-]{section*.42}{Model-Based}{chapter*.41}% 19
+\BOOKMARK [1][-]{section*.44}{Model-Free}{chapter*.41}% 20
+\BOOKMARK [2][-]{section*.45}{Q-Learning}{section*.44}% 21
+\BOOKMARK [2][-]{section*.47}{SARSA}{section*.44}% 22

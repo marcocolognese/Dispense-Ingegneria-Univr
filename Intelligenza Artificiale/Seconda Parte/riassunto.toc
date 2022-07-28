@@ -1,0 +1,24 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {chapter}{Incertezza e Probabilit\IeC {\`a}}{2}{chapter*.1}
+\contentsline {section}{Probabilit\IeC {\`a}}{2}{section*.2}
+\contentsline {subsection}{Probabilit\IeC {\`a} Condizionale}{2}{section*.5}
+\contentsline {chapter}{Decisioni Complesse}{3}{chapter*.8}
+\contentsline {section}{Decision Trees}{3}{section*.12}
+\contentsline {section}{Markov Decision Processes}{4}{section*.14}
+\contentsline {subsection}{Policy non stazionaria}{4}{section*.15}
+\contentsline {subsubsection}{Bellman Equations}{4}{section*.16}
+\contentsline {subsubsection}{Value Iteration}{5}{section*.17}
+\contentsline {subsubsection}{Policy Iteration}{5}{section*.21}
+\contentsline {chapter}{Bayesian Network}{6}{chapter*.23}
+\contentsline {section}{Costruzione di una Bayesian Network}{6}{section*.27}
+\contentsline {section}{Compact Conditional Distributions}{7}{section*.31}
+\contentsline {subsection}{Enumeration Algorithm}{7}{section*.33}
+\contentsline {subsection}{Variable Elimination}{7}{section*.36}
+\contentsline {subsection}{Irrelevant Variables}{7}{section*.39}
+\contentsline {subsection}{Approximate Inference by Stocastic Simulation}{7}{section*.40}
+\contentsline {chapter}{Reinforcement Learning}{8}{chapter*.41}
+\contentsline {section}{Model-Based}{8}{section*.42}
+\contentsline {section}{Model-Free}{8}{section*.44}
+\contentsline {subsection}{Q-Learning}{8}{section*.45}
+\contentsline {subsection}{SARSA}{9}{section*.47}
